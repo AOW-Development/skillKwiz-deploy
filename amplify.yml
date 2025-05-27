@@ -3,14 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci  # or "npm install" if you're not using a lockfile
+        - npm install --legacy-peer-deps
     build:
       commands:
         - npm run build
-  artifacts:
-    baseDirectory: .next
-    files:
-      - '**/*'
-  cache:
-    paths:
-      - node_modules/**/*
