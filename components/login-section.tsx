@@ -22,7 +22,7 @@ export default function LoginSection() {
           <div className="w-full md:w-1/2 bg-[#00418d] p-8 flex items-center">
             <div className="w-full">
               <h2 className="text-xl font-bold text-white mb-6">
-                {isSignUp ? "Sign up for Skill Kwiz" : "Sign in to Skill Kwiz"}
+                {isSignUp ? "Sign up for SkillKwiz" : "Sign in to SkillKwiz"}
               </h2>
 
               <form className="space-y-4">

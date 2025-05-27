@@ -30,7 +30,6 @@ export default function BlogPage() {
 
   return (
     <>
-      {/* Hero Section */}
       <section className="w-full bg-white py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="mb-16">
@@ -69,7 +68,7 @@ export default function BlogPage() {
                   </div>
                   <h3 className="text-lg font-bold mb-1">{post.title}</h3>
                   <a
-                    href="/downloads/sample.pdf"
+                    href="/images/skill.pdf"
                     download
                     className="text-sm text-[#00418d] font-medium hover:underline flex items-center gap-1"
                   >
@@ -110,7 +109,7 @@ export default function BlogPage() {
                 Top 10 Tech Skills That Can Land You a High-Paying Job
               </h3>
               <a
-                href="/downloads/sample.pdf"
+                href="/images/skill.pdf"
                 download
                 className="text-sm text-[#00418d] hover:underline font-medium"
               >
@@ -132,7 +131,7 @@ export default function BlogPage() {
                 How to Stay Motivated While Learning New Skills
               </h3>
               <a
-                href="/downloads/sample.pdf"
+                href="/images/skill.pdf"
                 download
                 className="text-sm text-[#00418d] hover:underline font-medium"
               >
@@ -194,7 +193,7 @@ export default function BlogPage() {
                       Trends to Watch in 2025
                     </p>
                     <a
-                      href="/downloads/sample.pdf"
+                      href="/images/skill.pdf"
                       download
                       className="text-lg font-bold hover:underline text-[#00418d]"
                     >
