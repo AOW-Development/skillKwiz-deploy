@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
 
           {/* Contact Info Column - Right */}
-          <div className="w-full md:w-1/3 flex justify-end pr-3">
+          <div className="w-full md:w-1/3 flex justify-end">
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact Info</h3>
               <div className="space-y-2 text-sm text-left">

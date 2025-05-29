@@ -15,7 +15,7 @@ export default function LetterCarousel() {
 
   const slides: CarouselSlide[] = [
     {
-      title: "Say Goodbye to Technical Interviews",
+      title: "Say Goodbye to Technical Interviews!",
       backgroundImage: "/images/homepage/Carousel/Pick - Laptop.jpg",
     },
     {
@@ -78,7 +78,7 @@ export default function LetterCarousel() {
 
             {/* Title Top Left */}
             <div className="absolute top-6 left-6 z-20">
-              <h3 className="text-3xl md:text-4xl font-bold text-[#721c24]">
+             <h3 className="text-3xl md:text-4xl font-extrabold text-[#721c24] font-serif">
                 {slide.title}
               </h3>
             </div>
