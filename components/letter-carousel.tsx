@@ -5,9 +5,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 interface CarouselSlide {
-  letters: string[];
   title: string;
-  description: string;
   backgroundImage: string;
 }
 
@@ -17,27 +15,19 @@ export default function LetterCarousel() {
 
   const slides: CarouselSlide[] = [
     {
-      letters: ["S", "K", "I", "L", "L"],
-      title: "Skill Assessment",
-      description: "Evaluate your knowledge with our comprehensive skill tests",
-      backgroundImage: "/images/homepage/Carousel/Drivers License.jpg",
-    },
-    {
-      letters: ["Q", "U", "I", "Z"],
-      title: "Quiz Excellence",
-      description: "Interactive quizzes designed by industry experts",
+      title: "Say Goodbye to Technical Interviews",
       backgroundImage: "/images/homepage/Carousel/Pick - Laptop.jpg",
     },
     {
-      letters: ["L", "E", "A", "R", "N"],
-      title: "Learning Journey",
-      description: "Continuous improvement through personalized feedback",
+      title: "Assessments in Secure Centers",
       backgroundImage: "/images/homepage/Carousel/Secure Center.jpg",
     },
     {
-      letters: ["H", "I", "R", "E"],
-      title: "Hiring Simplified",
-      description: "Connect verified skills with the right opportunities",
+      title: "Candidate Authentication Eliminating Fraud",
+      backgroundImage: "/images/homepage/Carousel/Drivers License.jpg",
+    },
+    {
+      title: "The World's Largest Skill Assessment Library",
       backgroundImage: "/images/homepage/Carousel/Skill Library.jpg",
     },
   ];
@@ -67,7 +57,6 @@ export default function LetterCarousel() {
 
   return (
     <div className="w-screen overflow-hidden mb-12 md:mb-10 lg:mb-24">
-
       <div className="relative w-full h-[500px]">
         {slides.map((slide, index) => (
           <div
@@ -87,37 +76,11 @@ export default function LetterCarousel() {
               priority={index === 0}
             />
 
-            {/* Text Overlay */}
-            {slide.title === "Hiring Simplified" ? (
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-center bg-white/80 p-6 rounded-md max-w-xl mx-auto">
-                <h3 className="text-4xl md:text-5xl font-bold text-[#00418d] mb-4">
-                  {slide.title}
-                </h3>
-                <p className="text-xl md:text-2xl text-[#00418d]">
-                  {slide.description}
-                </p>
-              </div>
-            ) : (
-              <div className="absolute top-10 left-10 bg-white/80 p-6 rounded-md max-w-md">
-                <h3 className="text-3xl md:text-4xl font-bold text-[#00418d] mb-3">
-                  {slide.title}
-                </h3>
-                <p className="text-lg md:text-xl text-[#00418d]">
-                  {slide.description}
-                </p>
-              </div>
-            )}
-
-            {/* Letters Row */}
-            <div className="absolute bottom-12 left-10 flex gap-4">
-              {slide.letters.map((letter, i) => (
-                <div
-                  key={i}
-                  className="w-16 h-16 md:w-20 md:h-20 flex items-center justify-center bg-gradient-to-br from-[#00418d] to-[#0066cc] text-white text-3xl md:text-4xl font-bold rounded-lg shadow-md transform hover:scale-110 transition-transform"
-                >
-                  {letter}
-                </div>
-              ))}
+            {/* Title Top Left */}
+            <div className="absolute top-6 left-6 z-20">
+              <h3 className="text-3xl md:text-4xl font-bold text-[#721c24]">
+                {slide.title}
+              </h3>
             </div>
           </div>
         ))}

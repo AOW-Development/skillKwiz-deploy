@@ -46,7 +46,8 @@ export default function HomePage() {
   return (
     <div className="bg-white">
       {/* Letter Carousel */}
-      <div className="pt-24 bg-white z-10 relative">
+      <div className="pt-[95px]
+      bg-white z-10 relative">
         <LetterCarousel />
       </div>
 

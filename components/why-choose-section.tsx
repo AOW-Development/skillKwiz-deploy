@@ -95,15 +95,14 @@ export default function WhyChooseSection() {
         <h2 className="text-3xl font-bold text-center mb-2">
           Why Choose{" "}
           <span className="text-white">
-            Skill<span className="text-[#f73e5d]">Kwiz</span>
+            SkillKwiz
           </span>{" "}
           ?
         </h2>
         <p className="text-center max-w-3xl mx-auto mb-12 text-sm">
-          Discover our unique value propositions designed to enhance your
-          recruitment strategy.
+         Discover our unique value propositions designed to enhance your recruitment strategy.
           <br />
-          Experience the difference SkillKwiz can make in your organization.
+          Experience the difference SkillKwiz can make for your organization.
         </p>
 
         {/* Cards */}
@@ -128,9 +127,9 @@ export default function WhyChooseSection() {
               Skill Library
             </h3>
             <p className="text-gray-700 text-center text-sm">
-              Access our extensive library of skill assessments covering
-              technical, professional, and soft skills for comprehensive
-              candidate evaluation.
+             Our huge skill library of over 3000 skills means you can choose a wide variety
+            of skill sets against which to measure candidates. You can pick and choose skills,
+             and we will take care of the testing for you.
             </p>
           </motion.div>
 
@@ -150,11 +149,10 @@ export default function WhyChooseSection() {
               Secure Testing
             </h3>
             <p className="text-gray-700 text-center text-sm">
-              Our testing is done in secure content-aware environments.
-              Candidates are authenticated through multiple identification
-              layers including biometric verification such as facial
-              recognition, security numbers, which are then periodically
-              validated throughout the test.
+            Our testing is done in secure centers around the world.
+             Candidates are authenticated with Government-approved identification such as passports,
+             tax IDs, and social security numbers, which are then prominently displayed on 
+             their test reports.
             </p>
           </div>
 
@@ -179,10 +177,9 @@ export default function WhyChooseSection() {
               Flexible Pricing
             </h3>
             <p className="text-gray-700 text-center text-sm">
-              Our pricing model is designed to scale with your needs. Pay only
-              for what you use with our credit-based system. Larger
-              organizations can benefit from our Enterprise plan with unlimited
-              testing and custom features.
+              We provide you with flexible pricing options. You could pay per report,
+              or you could choose to save by subscribing to pricing plans
+               that offer you unlimited reports.
             </p>
           </motion.div>
         </div>

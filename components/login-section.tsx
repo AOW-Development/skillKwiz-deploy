@@ -11,7 +11,7 @@ export default function LoginSection() {
           <div className="w-full md:w-1/2 p-2 relative">
           <div className="flex flex-col h-full">
             <img
-              src="/images/login3.jpeg"
+              src="/images/login1.jpg"
               alt="Skill Assessment"
               className="w-10/4 h-[500px] " // Reduces image to 75% of its container
             />
@@ -66,7 +66,7 @@ export default function LoginSection() {
                         setIsSignUp(true);
                       }}
                     >
-                      Forget Password?
+                      Forgot Password?
                     </a>
                   </div>
                 )}

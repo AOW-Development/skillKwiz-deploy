@@ -35,8 +35,9 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center max-w-3xl mx-auto text-base mb-8"
           >
-            Skill Assessments Done With The Utmost Knowledge, Integrity, Trust,
-            Respect And Security...
+            Skill assessments done with integrity, trust, respect, and security. 
+            Our objective is to provide you with accurate insights into the skill levels 
+            of your current and prospective workforce.
           </motion.p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -69,19 +70,19 @@ export default function AboutPage() {
               src: "/images/aboutpage/eye.gif",
               title: "OUR VISION",
               description:
-                "We envision a future where skill assessments empower companies to grow confidently...",
+                "Carve a niche for ourselves as the world’s leading skill assessment organization and serve as the gateway for enterprises to assess skilled knowledge workers..."
             },
             {
               src: "/images/aboutpage/mission.gif",
               title: "OUR MISSION",
               description:
-                "Our mission is to enable businesses to make informed hiring and training decisions...",
+                "Build and maintain the world’s largest skill testing library and conduct assessments in a secure, fair, and transparent manner to help enterprises with a standardized and faster talent assessment journey..."
             },
             {
               src: "/images/aboutpage/purpose.gif",
               title: "OUR PURPOSE",
               description:
-                "Our purpose is to revolutionize workforce evaluation...",
+                "Create stakeholder value by providing best-in-class services with a singular focus on assessing skills..."
             },
           ].map((feature, i) => (
             <motion.div
@@ -121,15 +122,15 @@ export default function AboutPage() {
                 Who We Are?
               </h2>
               <p className="text-lg text-[#272727] mb-4 leading-relaxed">
-                SkillKwiz is your trusted partner in identifying, assessing, and
-                benchmarking the skill levels of professionals. We help
-                organizations make confident workforce decisions by delivering
-                insights rooted in intelligent analysis.
+              We are your partner in skill assessment. Our expertise lies in
+              assessing skill levels in people and quantifying them. Be it
+               prospective candidates for recruitment or your current employees, 
+               our standardized assessment will help you benchmark skill levels.
               </p>
               <p className="text-base text-[#272727] mb-2 italic">
-                "SkillKwiz has a single purpose, and that is to create
-                stakeholder value by transforming how companies evaluate talent
-                and build high-performing teams."
+                "SkillKwiz has a single purpose and that is to create stakeholder
+                 value by providing best-in-class services
+                  in the sphere of skill assessment."
               </p>
               <p className="text-base text-[#272727] font-semibold">
                 – Venugopal B A <br />
@@ -177,7 +178,7 @@ export default function AboutPage() {
               className="w-full md:w-[30%] group transform transition-transform duration-700 hover:scale-105"
             >
               <div className="relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-                <div className="bg-[#f73e5d] p-4">
+                <div className="bg-white p-4">
                   <Image
                     src="/images/aboutpage/Venugopal.png"
                     alt="CEO"
@@ -186,7 +187,9 @@ export default function AboutPage() {
                     className="w-full h-auto object-cover rounded transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
-                <div className="bg-[#f73e5d] text-white text-center py-3 font-bold text-xl tracking-wide">
+                <div className="bg-white
+                text-black
+                 text-center py-3 font-bold text-xl tracking-wide">
                   CEO
                 </div>
               </div>
@@ -200,17 +203,17 @@ export default function AboutPage() {
               className="w-full md:w-[70%] space-y-6"
             >
               <p className="text-[20px] md:text-[18px] text-[#272727] leading-relaxed">
-                <strong>Venugopal B A</strong>,a veteran leader in the IT industry, is the
-                visionary founder and CEO of SkillKwiz. His extensive experience
-                in leading large teams and executing global technology projects
-                has helped define SkillKwiz mission to deliver precision skill
-                assessment to organizations and individuals.
+                <strong>Venugopal B A</strong>, a veteran leader of the IT industry, is the visionary founder
+                and CEO of SkillKwiz. His extensive experience in leading large teams and
+                executing global technology projects has helped define our mission to deliver
+                precision skill assessment to organizations and individuals.
               </p>
               <p className="text-[20px] md:text-[18px] text-[#272727] leading-relaxed">
-                With a rich background in the technology industry, Venugopal
-                combines strategic foresight with a people-first leadership
-                philosophy. His dedication to innovation and commitment to
-                excellence have been instrumental in shaping the company’s core values and vision.
+                With a rich background in the technology industry, Venugopal combines strategic foresight
+                 with a people-first leadership philosophy. His dedication to innovation and commitment 
+                to excellence have been instrumental in shaping the company’s core values and vision.
+                 He is poised to take SkillKwiz to its next level of growth by turning it into a
+                  company that is shaped entirely by the market it serves.
               </p>
              
             </motion.div>
