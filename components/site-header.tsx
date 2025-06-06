@@ -17,34 +17,18 @@ export default function SiteHeader() {
   return (
     <div className="w-full fixed top-0 left-0 z-50 bg-white shadow-md">
       <nav className="max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="flex items-center justify-between py-1 min-h-[64px]">
+        <div className="flex items-center justify-between py-2 min-h-[80px]">
           {/* Logo and Branding */}
-          <Link href="/" className="flex items-center gap-3 flex-shrink-0">
+          <Link href="/" className="flex items-center w-[300px] h-[80px]">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-cropped.png"
               alt="SkillKwiz Logo"
-              width={80}
+              width={300}
               height={80}
-              className="object-contain"
+              className="object-contain mt-3"
               priority
             />
-
-            <div className="leading-tight">
-              <div
-                className="text-[28px] font-bold text-[#69226F]"
-                style={{ fontFamily: "Aardvark Cafe" }}
-              >
-                SkillKwiz
-              </div>
-              <div
-                className="text-[16px] text-black mt-[-2px]"
-                style={{ fontFamily: "GardensC" }}
-              >
-                How much do you know?
-              </div>
-            </div>
           </Link>
-
           {/* Mobile Menu Toggle */}
           <button
             className="md:hidden text-white z-20"
@@ -55,7 +39,7 @@ export default function SiteHeader() {
           </button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-6 text-sm font-medium">
+          <div className="hidden md:flex space-x-6 text-base font-medium">
             {[
               { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
@@ -65,7 +49,7 @@ export default function SiteHeader() {
               <Link
                 key={href}
                 href={href}
-                className={`relative group py-1 px-2 transition-all ${
+                className={`relative group py-2 px-3 transition-all ${
                   pathname === href
                     ? "text-yellow-400 font-semibold"
                     : "text-black"
@@ -80,7 +64,7 @@ export default function SiteHeader() {
 
         {/* Mobile Dropdown Menu */}
         {isMenuOpen && (
-          <div className="md:hidden flex flex-col items-center py-3 bg-[#2f5f96] rounded-b-3xl transition-all duration-300 ease-in-out">
+          <div className="md:hidden flex flex-col items-center py-4 bg-[#2f5f96] rounded-b-3xl transition-all duration-300 ease-in-out">
             {[
               { href: "/", label: "Home" },
               { href: "/about", label: "About Us" },
@@ -90,7 +74,7 @@ export default function SiteHeader() {
               <Link
                 key={href}
                 href={href}
-                className={`relative group py-2 text-lg w-full text-center ${
+                className={`relative group py-3 text-xl w-full text-center ${
                   pathname === href
                     ? "text-yellow-400 font-semibold"
                     : "text-white"

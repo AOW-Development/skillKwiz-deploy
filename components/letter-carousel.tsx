@@ -56,7 +56,7 @@ export default function LetterCarousel() {
   }, [currentSlide, isAnimating]);
 
   return (
-    <div className="w-screen overflow-hidden mb-12 md:mb-10 lg:mb-24">
+    <div className="w-screen overflow-hidden mt-2 md:mt-3 lg:mt-4 mb-16 md:mb-10 lg:mb-24">
       <div className="relative w-full h-[500px]">
         {slides.map((slide, index) => (
           <div

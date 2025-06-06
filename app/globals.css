@@ -167,4 +167,16 @@ body {
 .animate-fadeInUp {
   animation: fadeInUp 0.9s ease-out forwards;
 }
+ @font-face {
+  font-family: "Aardvark Cafe";
+  src: url("/font/AARDC___.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: "GardensC";
+  src: url("/fonts/GardensC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
